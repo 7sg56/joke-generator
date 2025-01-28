@@ -23,25 +23,28 @@ Experience the app in action: [Joke Generator](https://7sg56.github.io/joke-gene
    ```bash
    git clone https://github.com/7sg56/joke-generator.git
 
-Navigate to the project directory:
-bashCopycd joke-generator
+2. Navigate to the project directory:
+   ```bash
+   cd joke-generator
 
-Open index.html in your preferred web browser to start using the application locally.
+3. Open index.html in your preferred web browser to start using the application locally.
 
-Usage
+###Usage
 
-Open the application in your web browser
-Select your preferred joke category from the dropdown menu
-Click the "Get Joke" button to generate a new joke
-Enjoy the smooth typewriter animation as your joke appears
-Repeat as many times as you'd like for endless entertainment
+- Open the application in your web browser
+- Select your preferred joke category from the dropdown menu
+- Click the "Get Joke" button to generate a new joke
+- Enjoy the smooth typewriter animation as your joke appears
+- Repeat as many times as you'd like for endless entertainment
 
-Project Structure
+###Project Structure
+
 Copyjoke-generator/
 ├── index.html      # Main HTML document and application entry point
 ├── style.css       # CSS styling and animations
 └── script.js       # Core JavaScript functionality and API integration
-Technologies Used
+
+###Technologies Used
 
 HTML5: Provides the structural foundation of the application
 CSS3: Handles styling and animations, including the typewriter effect
@@ -49,26 +52,16 @@ JavaScript (ES6+): Powers the core functionality and user interactions
 JokeAPI: Supplies the diverse collection of jokes
 Axios: Manages API requests with a robust, promise-based structure
 
-Contributing
+###Contributing
 Contributions are welcome! If you'd like to improve the Joke Generator, please feel free to:
 
-Fork the repository
-Create a feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-
-License
-This project is distributed under the MIT License. See LICENSE file for more information.
 Author
-7sg56
-
-GitHub: @7sg56
+7sg56 - _Sourish Ghosh_
 
 Acknowledgments
 
 JokeAPI for providing the joke content
-The open-source community for inspiration and resources
+The courses and free resources I have used lately
 
 
 This project was created to spread joy through humor while demonstrating modern web development practices.
