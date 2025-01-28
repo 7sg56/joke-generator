@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Funnel+Display:wght@300..800&display=swap');
+
+body {
+    background-color: #090b0d;
+    font-family: 'Funnel Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #1F2430; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 25rem;
+    height: 23rem;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.container h1 {
+    font-family: 'Barriecito', sans-serif;
+    color: #F07178;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+#jokeBtn {
+    background-color: #F07178; 
+    color: #0A0E14; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#jokeBtn:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+#jokeType {
+    background-color: #1F2430; 
+    color: #F07178; 
+    padding: 10px 5px;
+    width: 12rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.3);
+    border: 1px solid #F07178
+}
+
+#jokeType:hover {
+    background-color: #282C34; 
+    transform: translateY(-3px);
+    box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+#jokeBar {
+    background-color: #1F2430; 
+    color: #F07178; 
+    padding: 20px;
+    width: 20rem;
+    height: 8rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    overflow: auto;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1s ease-in-out;
+    border: 1px solid #F07178;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
